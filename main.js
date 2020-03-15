@@ -1,5 +1,4 @@
 let main = function(str_1, str_2){
-    if(typeof str_1 !== 'string' || typeof str_2 !== 'string') return false;
     if(str_1.length !== str_2.length) return false;
     
     let mapped_chars = {};
